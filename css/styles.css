@@ -1,0 +1,85 @@
+/* GENERAL*/
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wrapper
+{
+    width: 60rem;
+    margin: 0 auto;
+    padding: 0 10px;
+}  
+
+li
+{
+    list-style-type: none;
+}
+
+
+/* Header */
+
+header
+{
+    margin: auto;
+    width: 60rem;
+    height: 6rem;
+}
+
+header h1
+{
+    font-family: 'Baloo 2', sans-serif;
+    margin: 2rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+header nav
+{
+    float: right;
+    background-color: aqua;
+    padding: 1rem;
+    position: relative;
+    bottom: 5.6rem;
+}
+
+header li
+{
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+/* Section Accueil */
+
+
+
+
+
+
+
+/* Section Destinations */
+
+
+
+
+
+
+
+/* Section Activités */
+
+
+
+
+
+
+
+/* Section Contact */
