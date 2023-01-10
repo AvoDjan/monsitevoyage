@@ -6,11 +6,17 @@
     font-family: sans-serif;
 }
 
+body
+{
+    font-family: 'Baloo 2', Arial, sans-serif;
+    font-size: 1rem;
+}
+
 .wrapper
 {
     width: 60rem;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 1rem;
 }  
 
 li
@@ -18,31 +24,71 @@ li
     list-style-type: none;
 }
 
+.orange
+{
+    color: #ff5722;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+h2
+{
+    background-color: orange;
+    text-align: center;
+    height: 4rem;
+    font-size: 2.5em;
+    width: 45rem;
+    margin: auto;
+    font-family: 'Baloo 2', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #9ea7d8;
+}
+
+#titreh2
+{
+    background-color:green;
+    margin-top: 1rem;
+}
+
+#titleh2
+{
+    background: grey;
+    margin-bottom: 2rem;
+}
+
 
 /* Header */
+
 
 header
 {
     margin: auto;
-    width: 60rem;
     height: 6rem;
+    background-color:blue;
+}
+
+#dr
+{
+    border-bottom: 2px solid black;
+    width: 45rem;
+    align-items: center;
+    margin: auto;
 }
 
 header h1
 {
+    float: left;
     font-family: 'Baloo 2', sans-serif;
-    margin: 2rem;
-    font-size: 2.5rem;
+    margin: 1rem;
+    font-size: 2.3rem;
     text-transform: uppercase;
+    background-color: pink;
+    padding: 0rem 0.5rem;
 }
 
 header nav
 {
     float: right;
-    background-color: aqua;
-    padding: 1rem;
-    position: relative;
-    bottom: 5.6rem;
+    margin-top: 2.2rem;
 }
 
 header li
@@ -50,23 +96,118 @@ header li
     display: inline;
 }
 
-
-
-
-
-
+header ul li a
+{
+    margin-right: 2.5rem;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
 
 
 
 /* Section Accueil */
 
-
-
-
-
+#accueil
+{
+    height: 40rem;
+    text-align: center;
+    background-color: red;
+    color: #9ea7d8;
+    font-size: 2rem;
+    box-shadow: 0 0 1rem 0.5rem #C8DBEC inset;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
 
 
 /* Section Destinations */
+
+#destinations
+{
+    background-color:rgb(233, 64, 233);
+}
+
+article
+{
+    background-color: rgb(0, 110, 255);
+    height: 15rem;
+}
+
+#image1
+{ 
+        background-color: rgb(204, 159, 159);
+        height: 15rem;
+}
+
+#image1 img
+{
+    height: 15rem;
+    border-radius: 2rem;
+    float: left;
+    background-color: yellow;
+}
+
+#image1 p
+{
+    background-color: rgb(0, 247, 255);
+    width: 30rem;
+    text-align: center;
+    margin-left: 23rem;
+    position: relative;
+    top: 2rem;
+    font-family: 'Baloo 2', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+#image2
+{
+    background-color: brown;
+    height: 15rem;
+}
+
+#image2 img
+{
+    height: 15rem;
+    border-radius: 2rem;
+    float: right;
+}
+
+#image2 p
+{
+    background-color: #E1BA91;
+    width: 40rem;
+    text-align: center;
+    margin: auto 17.28rem;
+    font-family: 'Baloo 2', Arial, sans-serif;
+    font-size: 1.2rem;
+    position: relative;
+    top: 3rem;
+}
+
+article #image2 img
+{
+    float: right;
+    background-color: yellow;
+    height: 15rem;
+    width: 22.8rem;
+}
+
+article #image3 img
+{
+    height: 15rem;
+    border-radius: 2rem;
+    float: left;
+    background-color: yellow;
+}
+
+article #image4 img
+{
+    height: 15rem;
+    border-radius: 2rem;
+    float: right;
+    background-color: yellow;
+}
 
 
 
