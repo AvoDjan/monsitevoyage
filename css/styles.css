@@ -113,7 +113,7 @@ header ul li a
     text-decoration: none;
 }
 
-a:hover
+nav a:hover
 {
     border-bottom: 2px solid #00897b;
     width: 5rem;
@@ -426,4 +426,38 @@ footer p
 #black
 {
     color: black;
+}
+
+
+#reseau
+{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+footer #reseau a:hover
+{
+    text-decoration: none;
+}
+
+.fb img
+{
+    height: 3rem;
+}
+
+.twitter img
+{
+    height: 3rem;
+    
+}
+
+.insta img
+{
+    height: 3rem;
+}
+
+.tiktok img
+{
+    height: 3rem;
 }
