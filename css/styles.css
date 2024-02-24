@@ -133,6 +133,8 @@ nav a:hover
 #accueil
 {
     height: 40rem;
+    width: 100rem;
+    margin:auto;
     margin-top: 1rem;
     margin-bottom: 2rem;
     background: url('../images/santorini.jpg') no-repeat center;
@@ -291,13 +293,19 @@ article #image4 img
     margin-bottom: 1rem;
 }
 
+#activites ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 #activites ul li
 {
     width: 18.75rem;
     float: left;
     padding-top: 2rem;
     text-align: center;
-    margin-right: 10px;
     margin-bottom: 6rem;
     background-color: #efefef;
 }
@@ -406,7 +414,6 @@ textarea
 footer
 {
     background-color: #00897b85;
-    height: 20rem;
     margin-top: 2rem;
 }
 
